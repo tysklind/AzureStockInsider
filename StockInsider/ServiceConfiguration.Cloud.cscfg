@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="StockInsider" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WorkerRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=qbitdatafactory;AccountKey=fXUw28zijkx/C2xEgIqeunrsDUKlJBY0YdC7l47U/LmMwNjgSXcVsPzyBBDbjxlxhDsxXFBmAxfzjg6t5I7SYw==" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="WebApplication1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=qbitdatafactory;AccountKey=fXUw28zijkx/C2xEgIqeunrsDUKlJBY0YdC7l47U/LmMwNjgSXcVsPzyBBDbjxlxhDsxXFBmAxfzjg6t5I7SYw==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
