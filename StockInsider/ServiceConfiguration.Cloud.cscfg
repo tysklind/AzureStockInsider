@@ -3,7 +3,13 @@
   <Role name="WorkerRole1">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=qbitdatafactory;AccountKey=fXUw28zijkx/C2xEgIqeunrsDUKlJBY0YdC7l47U/LmMwNjgSXcVsPzyBBDbjxlxhDsxXFBmAxfzjg6t5I7SYw==" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="WebApplication1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=qbitdatafactory;AccountKey=fXUw28zijkx/C2xEgIqeunrsDUKlJBY0YdC7l47U/LmMwNjgSXcVsPzyBBDbjxlxhDsxXFBmAxfzjg6t5I7SYw==" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
