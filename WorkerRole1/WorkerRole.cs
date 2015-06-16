@@ -23,7 +23,7 @@ namespace WorkerRole1
 
             try
             {
-                this.RunAsync(this.cancellationTokenSource.Token).Wait(); // aaa
+                this.RunAsync(this.cancellationTokenSource.Token).Wait(); // Johan
             }
             finally
             {
