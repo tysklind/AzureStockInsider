@@ -149,6 +149,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201506180728162_Initial.cs" />
+    <Compile Include="Migrations\201506180728162_Initial.Designer.cs">
+      <DependentUpon>201506180728162_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506180741421_Rating.cs" />
+    <Compile Include="Migrations\201506180741421_Rating.Designer.cs">
+      <DependentUpon>201506180741421_Rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -216,6 +225,14 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201506180728162_Initial.resx">
+      <DependentUpon>201506180728162_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506180741421_Rating.resx">
+      <DependentUpon>201506180741421_Rating.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
